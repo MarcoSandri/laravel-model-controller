@@ -32,12 +32,16 @@
                 <div class="ticket">
                     <div class="cut"></div>
                     <div class="content">
-                        <i class="fa-solid fa-qrcode"></i>
+                        <h2>{{$movie['title']}}</h2>
+                        <div class="codes">
+                            <i class="fa-solid fa-barcode"></i>
+                            <i class="fa-solid fa-qrcode"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         @endforeach
     </div>
-
+    <script src="https://kit.fontawesome.com/bcbf851183.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -88,6 +88,9 @@ body {
   height: 100%;
   background-color: #1b1b1b;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .movies .movieCard .ticket .cut {
@@ -95,5 +98,17 @@ body {
   left: -2px;
   height: 100%;
   border-left: 5px dashed #9BBABA;
+}
+
+.movies .movieCard .ticket .content {
+  transform: rotate(-90deg);
+  color: #f0c322;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.movies .movieCard .ticket .content i {
+  font-size: 5rem;
+  margin: 10px;
 }
 

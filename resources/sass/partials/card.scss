@@ -75,12 +75,27 @@
             height: 100%;
             background-color: rgb(27, 27, 27);
             position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
 
             .cut {
                 position: absolute;
                 left: -2px;
                 height: 100%;
                 border-left: 5px dashed #9BBABA;
+            }
+            
+            .content {
+                transform: rotate(-90deg);
+                color: #f0c322;
+                text-align: center;
+                text-transform: uppercase;
+
+                i {
+                    font-size: 5rem;
+                    margin: 10px;
+                }
             }
         }
     }
